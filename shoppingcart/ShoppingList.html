@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Shopping List</title>
+</head>
+<body>
+
+  <h1>Shopping Cart</h1>
+  <h2>Products for sale</h2>
+
+  <ul id ="list">
+    <li> apple <input type="image" name="Add to cart" src="add-to-cart.jpg"  width=82px height=82px  onclick="addItemToCart('apple',1.99,1)"></li>
+    <li> pear <input type="button" value="Add to cart" onclick="addItemToCart('pear',1.99,1)"></li>
+    <li> banana <input type="button" value="Add to cart" onclick="addItemToCart('banana',.89,1)"></li>
+    <li> grapes <input type="button" value="Add to cart" onclick="addItemToCart('grapes',1.29,1)"></li>
+    <li> kiwi <input type="button" value="Add to cart" onclick="addItemToCart('kiwi',.99,1)"></li>
+  </ul>
+  <div>
+   
+  
+   <p id ="display"><input type="image" name="products" src="cart.png" width=82px height=82px onclick=displayItemsinCart()></p>
+   <p id ="orderedproducts">you have ordered these products</p>
+   <p id="view"></p>
+ </div>
+ <p>the number of items in your cart are</p>
+ <p id="numberofitems" ></p>
+ <p>the total cost is</p>
+ <p id="totalprice"></p>
+ 
+  
+  <script src="E:\soba4.2_download_1\soba4.2\shoppingcart\shoppinglist.js">
+    
+  </script>
+	
+</body>
+
+</html>
